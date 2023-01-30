@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <mavlink>
-  <include>ardupilotmega.xml</include>
   <version>3</version>
   <messages>
     <message id="55020" name="ATMOSPHERIC_VALUE">
