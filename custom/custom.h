@@ -10,7 +10,7 @@
     #error Wrong include order: MAVLINK_CUSTOM.H MUST NOT BE DIRECTLY USED. Include mavlink.h from the same directory instead or set ALL AND EVERY defines from MAVLINK.H manually accordingly, including the #define MAVLINK_H call.
 #endif
 
-#define MAVLINK_CUSTOM_XML_HASH 798592020055696126
+#define MAVLINK_CUSTOM_XML_HASH 2061266505167543395
 
 #ifdef __cplusplus
 extern "C" {
@@ -37,12 +37,12 @@ extern "C" {
 // MAVLINK VERSION
 
 #ifndef MAVLINK_VERSION
-#define MAVLINK_VERSION 3
+#define MAVLINK_VERSION 2
 #endif
 
 #if (MAVLINK_VERSION == 0)
 #undef MAVLINK_VERSION
-#define MAVLINK_VERSION 3
+#define MAVLINK_VERSION 2
 #endif
 
 // MESSAGE DEFINITIONS
@@ -51,8 +51,6 @@ extern "C" {
 // base include
 
 
-#undef MAVLINK_THIS_XML_HASH
-#define MAVLINK_THIS_XML_HASH 4656654125206022296
 
 #if MAVLINK_CUSTOM_XML_HASH == MAVLINK_PRIMARY_XML_HASH
 # define MAVLINK_MESSAGE_INFO {MAVLINK_MESSAGE_INFO_ATMOSPHERIC_VALUE}
